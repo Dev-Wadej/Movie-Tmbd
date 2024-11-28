@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 import { UseBaseQueryOptions, useQuery } from "@tanstack/react-query";
 import qs from "query-string";
 import { createApiRequest } from "./createApiRequest";
