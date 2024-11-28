@@ -2,7 +2,6 @@
 import { useGetMovieById } from "@/app/services/movie/queries";
 
 import Image from "next/image";
-import React from "react";
 
 const imageUrl = "https://image.tmdb.org/t/p/w300";
 const Page = ({ params }: { params: { id: string } }) => {

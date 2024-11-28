@@ -2,7 +2,6 @@
 import { Movie } from "@/types/movie";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import React from "react";
 
 type Props = {
   movie: Movie;

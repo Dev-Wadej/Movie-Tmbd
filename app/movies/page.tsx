@@ -1,5 +1,5 @@
 "use client";
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 import MovieCard from "../components/movie-card";
 import { useGetTrendingMovies } from "../services/movie/queries";
 
